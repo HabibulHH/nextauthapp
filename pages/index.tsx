@@ -29,10 +29,8 @@ export default function Home() {
         )}
         {session && (
           <>
-            Signed in as {session.user.email || ""} <br />
-            <div>You can now access our super secret pages</div>
             <button>
-              <Link href="/protected">To the secret</Link>
+              <Link href="/protected">Go to protected page</Link>
             </button>
             <button
               className="bg-yellow-600 hover:bg-yellow-400 text-white font-bold py-2 px-4 rounded"
