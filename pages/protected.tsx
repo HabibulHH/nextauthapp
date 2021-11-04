@@ -34,6 +34,14 @@ export default function Secret() {
           >
             you must be signed in to view this page
           </a>
+          <button
+            onClick={() => {
+              signIn();
+            }}
+            className="bg-green-500 active:bg-green-700 ..."
+          >
+            sign in
+          </button>
         </>
       )}
       {session && (

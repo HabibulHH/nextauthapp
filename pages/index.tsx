@@ -29,8 +29,8 @@ export default function Home() {
         )}
         {session && (
           <>
-            <button>
-              <Link href="/protected">Go to protected page</Link>
+            <button className="text-6xl">
+              <Link href="/protected">Click to go protected page</Link>
             </button>
             <button
               className="bg-yellow-600 hover:bg-yellow-400 text-white font-bold py-2 px-4 rounded"
